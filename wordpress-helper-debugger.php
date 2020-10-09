@@ -1,4 +1,16 @@
 <?php
+/**
+ * Plugin Name: Wordpress Helper Debugger
+ * Plugin URI: https://omukiguy.com
+ * Author: Omukiguy c/o Highrise Digital
+ * Author URI: https://omukiguy.com
+ * Description: Debugging functions sourced from Highrise Digital.
+ * Version: 0.1.0
+ * License: 0.1.0
+ * License URL: http://www.gnu.org/licenses/gpl-2.0.txt
+ * text-domain: wordpress-helper-debugger
+*/
+
 
 /**
  * Var dump results with Pre tags
