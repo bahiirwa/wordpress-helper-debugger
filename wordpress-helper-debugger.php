@@ -29,7 +29,7 @@ function pre_var_dump( $data, $label = '' ) {
  * @param mixed $log The thing you want to log.
  * @return void
  */
-function wp_write_log( $log ) {
+function pre_write_log( $log ) {
     if ( true === WP_DEBUG ) {
         if ( is_array( $log ) || is_object( $log ) ) {
             error_log( print_r( $log, true ) );
